@@ -2,7 +2,7 @@
 
 Since Monza is aimed at virtualized scenarios, we classify code as either belonging to the guest or the host.
 Elements of the guest end up inside the virtual machine together with the application.
-Elements of the host reside the parent partition of the virtual machine, interating with the VMM, any shared memory or the outside world.
+Elements of the host reside in the parent partition of the virtual machine, interacting with the VMM, any shared memory or the outside world.
 
 ## Guest
 There is a single [guest](./guest.md) implementation at the moment.
